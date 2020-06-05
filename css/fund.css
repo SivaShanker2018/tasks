@@ -1,0 +1,112 @@
+body{
+    font-family :'Open Sans', sans-serif;
+    font-size:20px;
+    color: #9b9595;
+}
+.fund {
+  width: 420px;
+  margin: 60px auto;
+  
+}
+.fund-heading.tooltip {
+      position: relative;
+      line-height: 24px;
+      padding: 15px 30px 15px 30px;
+      font-size: 20px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      background: #424242;
+      border: 4px solid #424242;
+      border-radius: 5px;
+      text-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
+      box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 0px;
+}
+
+.fund-heading.tooltip:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-width: 10px;
+      border-style: solid;
+      border-color: #424242 transparent transparent transparent;
+      top: 57px;
+      left: 350px;
+}
+.progresss-bar
+{
+    margin-top: 15px;
+    color: #000!important;
+    background-color: #FAFAFA!important;
+    border: 2px solid #bfbcb85e;
+}
+
+.w3-grey, .w3-hover-grey:hover, .w3-gray, .w3-hover-gray:hover {
+    color: #000!important;
+    background-color: #F15E33!important;
+}
+.progresss-content{
+    border-left: 2px solid #bfbcb85e;
+    border-right: 2px solid #bfbcb85e; 
+    border-bottom: 2px solid #bfbcb85e; 
+    text-align:left;
+        float: left;
+}
+.progresss-content-align
+{
+  padding : 10px 40px 20px 20px;  
+}
+.progresss-content .orange-text {
+    color : #ee5908!important;
+    font-weight : bold;
+}
+
+.input-section
+{
+    float : left;
+}
+.button-section
+{
+    float : left;
+    margin-left : 20px;
+}
+.give-now
+{
+      padding: 14px 30px 15px 30px;
+      font-size: 20px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      background: #00BE1C;
+      border-radius: 5px;
+      border : none;
+      font-weight:bold;
+      width: 169px;
+}
+input[type="text"]{
+    width:150px;
+    height : 47px;    
+    border-radius: 5px;
+    font-size: 23px;
+    padding-left: 20px;
+    border: 1px solid #cdcdcd;
+    font-weight:bold;
+}
+.field-wrap-top
+{
+    margin-top: 20px;
+     margin-left: 26px;    margin-right: 25px;
+}
+
+.save
+{
+      padding: 14px 30px 15px 30px;
+      font-size: 17px;
+      text-align: center;
+      color: #999999;
+      background: #FAFAFA;
+      border-radius: 5px;
+      border : none;
+      font-weight:bold;
+      width: 200px;
+      border: 1px solid #cdcdcd;
+}
