@@ -264,7 +264,7 @@ p{
 {
     background: #8d968f;   
 }
-.price-section input[type="text"]{
+.price-section input[type="text"], .price-section input[type="number"]{
     width:169px;
     height : 65px;    
     border-radius: 5px;
@@ -272,6 +272,14 @@ p{
     padding-left: 30px;
     border: 1px solid #cdcdcd;
     font-weight:bold;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
 }
 .clear
 {
@@ -323,4 +331,24 @@ p{
     margin-right:auto;
     display:block;
     margin-top:50px;margin-bottom:0%
+}
+.container
+{
+    margin : 50px auto;
+    width:500px;
+}
+.title 
+{
+  color: #242424;
+  margin-bottom: 50px;
+}
+.links
+{
+  background-color: #1ab188;
+  color: #fff;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  border-bottom:1px solid #eaeaea;
+  text-align:center;
 }

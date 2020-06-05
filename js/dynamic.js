@@ -5,7 +5,7 @@ const createButton =() =>{
     btn.classList.add("dynamic-button");
     document.body.appendChild(btn);
     btn.addEventListener('click', (e)=>{
-        console.log("Name - '" +e.target.name+"'",", Index- '"+ Array.prototype.indexOf.call(document.querySelectorAll(".dynamic-button"), btn)+"'");
+        console.log("Name - '" +e.target.name+"'",",Index - '"+ Array.prototype.indexOf.call(document.querySelectorAll(".dynamic-button"), btn)+"'");
     });
 }
 for (let i=0; i < 5; i++) {
