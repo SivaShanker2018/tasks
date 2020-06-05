@@ -1,6 +1,6 @@
 const inputAction = (fieldname)=>{
     const label = document.getElementById(fieldname);
-    var inputfield = element = document.getElementsByClassName(fieldname)[0];
+    const inputfield = element = document.getElementsByClassName(fieldname)[0];
     inputfield.classList.add("outlinenone");
     
     label.classList.add("active","highlight");
@@ -11,7 +11,7 @@ const inputAction = (fieldname)=>{
     }
 }
 const isNumberKey = (event)=>{
-    var priceVal = document.getElementById("price").value;
+    const priceVal = document.getElementById("price").value;
     if(priceVal.length>10)
     return false;    
     const charCode = (event.which) ? event.which : event.keyCode
